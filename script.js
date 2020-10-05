@@ -8,7 +8,7 @@ const minimun = function (a, b) {
 
 
 const maximun = function (a, b) {
-  if (b < a) {
+  if (b <= a) {
     return a;
   }
   return b;
